@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #b7b78c;
+    padding: 10rem 30rem;
+         }
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 20%
+    }
+.bottle {
+   margin-right: -10rem;
+}
+.bottle-pix {
+}
+.text-all {
+ 
+}
+.perfume {
+    letter-spacing: 0.5rem;
+    font-weight: lighter;
+   }
+   .describe {
+    font-weight: bolder;
+   }
+   .creator {
+    font-weight: lighter;
+    margin-right: 2rem;
+   }
+  .price {
+    display: flex;
+      }
+  .now-price {
+    color: green;
+  }
+  .old-price {
+    text-decoration-line: line-through;
+  }
+  .cart {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: green;
+    color: white;
+    padding: 0.5rem 3rem
+    
+      }
